@@ -1,0 +1,6 @@
+[
+  {"id":"mariage","title":"Mariages","description":"Buffets et service à table pour cent à mille invités, pièce montée incluse.","icon":"heart","imageUrl":""},
+  {"id":"entreprise","title":"Événements d'entreprise","description":"Cocktails, séminaires et petits-déjeuners d'affaires, service ponctuel et discret.","icon":"briefcase","imageUrl":""},
+  {"id":"anniversaire","title":"Anniversaires & réceptions privées","description":"Menus personnalisés et pâtisserie sur-mesure pour vos occasions privées.","icon":"cake","imageUrl":""},
+  {"id":"patisserie","title":"Pâtisserie sur-mesure","description":"Pièces montées, gâteaux d'occasion et mignardises composés avec le chef.","icon":"coffee","imageUrl":""}
+]

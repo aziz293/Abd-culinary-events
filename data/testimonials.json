@@ -1,0 +1,20 @@
+[
+  {
+    "id": "t1",
+    "quote": "Le buffet a tenu ses promesses du premier au dernier plat, et nos deux cents invités en parlent encore.",
+    "author": "Aïda D.",
+    "context": "Mariage, Saly"
+  },
+  {
+    "id": "t2",
+    "quote": "Service ponctuel et discret pour notre séminaire, exactement ce qu'il fallait pour une équipe pressée.",
+    "author": "Cheikh N.",
+    "context": "Directeur des opérations, Dakar"
+  },
+  {
+    "id": "t3",
+    "quote": "La pièce montée a tenu toute la soirée et le goût était à la hauteur du visuel.",
+    "author": "Fatou S.",
+    "context": "Anniversaire, Ngor"
+  }
+]

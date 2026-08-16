@@ -1,0 +1,107 @@
+[
+  {
+    "id": "e1",
+    "title": "Pastels de crevettes, sauce tamarin",
+    "description": "Beignets croustillants farcis aux crevettes, oignons et persil, sauce tamarin acidulée.",
+    "price": 3500,
+    "category": "resto",
+    "isChefSelection": true,
+    "spiceLevel": 1
+  },
+  {
+    "id": "e2",
+    "title": "Salade de gésiers confits",
+    "description": "Gésiers confits, mesclun, tomates cerises, vinaigrette à la moutarde de Dakar.",
+    "price": 4000,
+    "category": "resto",
+    "spiceLevel": 0
+  },
+  {
+    "id": "e3",
+    "title": "Accras de légumes du marché Kermel",
+    "description": "Beignets de légumes de saison, coulis de piment doux.",
+    "price": 3000,
+    "category": "resto",
+    "isVegetarian": true,
+    "spiceLevel": 1
+  },
+  {
+    "id": "p1",
+    "title": "Thiéboudieune rouge signature",
+    "description": "Riz brisé au poisson, légumes mijotés, sauce tomate et niébé, cuisson longue à l'ancienne.",
+    "price": 7500,
+    "category": "plats",
+    "isChefSelection": true,
+    "spiceLevel": 2
+  },
+  {
+    "id": "p2",
+    "title": "Yassa poulet grillé",
+    "description": "Poulet mariné au citron et à l'oignon confit, riz blanc parfumé.",
+    "price": 6500,
+    "category": "plats",
+    "spiceLevel": 1
+  },
+  {
+    "id": "p3",
+    "title": "Mafé d'agneau braisé",
+    "description": "Agneau mijoté à la pâte d'arachide, patates douces, riz cassé.",
+    "price": 8000,
+    "category": "plats",
+    "spiceLevel": 1
+  },
+  {
+    "id": "p4",
+    "title": "Légumes braisés et fonio doré",
+    "description": "Fonio sauté aux légumes racines, huile de palme infusée au thym.",
+    "price": 6000,
+    "category": "resto",
+    "isVegetarian": true,
+    "spiceLevel": 0
+  },
+  {
+    "id": "d1",
+    "title": "Thiakry glacé à la vanille",
+    "description": "Couscous de mil au lait caillé, vanille de Madagascar, éclats de cacahuète.",
+    "price": 2500,
+    "category": "desserts",
+    "spiceLevel": 0
+  },
+  {
+    "id": "d2",
+    "title": "Tarte au bissap et agrumes",
+    "description": "Pâte sablée, crémeux bissap, zestes d'agrumes confits.",
+    "price": 3000,
+    "category": "desserts",
+    "isChefSelection": true,
+    "spiceLevel": 0
+  },
+  {
+    "id": "pa1",
+    "title": "Pièce montée sur-mesure",
+    "description": "Structure et parfums composés avec vous, pour mariages et grandes occasions.",
+    "price": 0,
+    "category": "patisseries"
+  },
+  {
+    "id": "pa2",
+    "title": "Coffret mignardises signature",
+    "description": "Assortiment de douze mignardises, coco, bissap, café touba, caramel au sel.",
+    "price": 15000,
+    "category": "patisseries"
+  },
+  {
+    "id": "b1",
+    "title": "Bissap de la maison",
+    "description": "Infusion d'hibiscus, gingembre frais, sirop léger.",
+    "price": 1500,
+    "category": "boissons-specialites"
+  },
+  {
+    "id": "b2",
+    "title": "Café Touba glacé",
+    "description": "Café Touba infusé à froid, notes de poivre de Guinée.",
+    "price": 1800,
+    "category": "boissons-specialites"
+  }
+]

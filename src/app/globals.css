@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  --color-noir: #2d3a1e;
+  --color-noir-soft: #37461f;
+  --color-cream: #fdfbf7;
+  --color-cream-dim: #f1ece0;
+  --color-brass: #c5a059;
+  --color-brass-bright: #d4af37;
+  --color-ember: #c5a059;
+  --color-ember-bright: #d4af37;
+  --color-herb: #55692f;
+  --color-ink: #1c2612;
+}
+
+@theme inline {
+  --color-noir: var(--color-noir);
+  --color-noir-soft: var(--color-noir-soft);
+  --color-cream: var(--color-cream);
+  --color-cream-dim: var(--color-cream-dim);
+  --color-brass: var(--color-brass);
+  --color-brass-bright: var(--color-brass-bright);
+  --color-ember: var(--color-ember);
+  --color-ember-bright: var(--color-ember-bright);
+  --color-herb: var(--color-herb);
+  --color-ink: var(--color-ink);
+
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--color-ember);
+  color: var(--color-cream);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ember);
+  outline-offset: 3px;
+}
+
+/* torn ticket edge, signature motif reused for menu cards & form steps */
+.ticket-edge-bottom {
+  --tooth: 14px;
+  mask-image: radial-gradient(circle at var(--tooth) 0, transparent calc(var(--tooth) - 0.5px), black var(--tooth)),
+    linear-gradient(black, black);
+  mask-size: calc(var(--tooth) * 2) 100%, 100% 100%;
+  mask-position: bottom left, 0 0;
+  mask-repeat: repeat-x, no-repeat;
+}
+
+.grain-overlay {
+  position: relative;
+  isolation: isolate;
+}
+.grain-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  z-index: 1;
+}
