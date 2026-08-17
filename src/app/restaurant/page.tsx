@@ -24,7 +24,6 @@ const strengths = [
   { text: "Un accueil chaleureux, à table comme en cuisine", icon: HeartHandshake },
   { text: "Un rapport qualité/prix pensé pour Dakar", icon: Award },
   { text: "Un service traiteur disponible 7j/7", icon: Clock },
-  { text: "Des options végétariennes disponibles", icon: Leaf },
 ];
 
 export default async function RestaurantPage() {
@@ -55,8 +54,8 @@ export default async function RestaurantPage() {
         <div className="order-1 md:order-2">
           <SectionHeading
             eyebrow="Le chef"
-            title="Une cuisine apprise sur le marché, affinée en salle"
-            description="Formé dans les cuisines de Dakar puis en France, le chef revient à sa ville avec une idée fixe : cuisiner le Sénégal sans le trahir. Les produits viennent du marché Kermel et des maraîchers des Niayes, choisis chaque matin. La carte change avec les saisons, la rigueur, elle, ne change jamais."
+            title="Une cuisine forgée par l’expérience, affinée avec passion"
+            description="Formée dans les cuisines sénégalaises, la cheffe a grandi avec une idée simple : faire découvrir le Sénégal à travers une cuisine authentique, généreuse et sans artifice. Chaque produit est choisi avec soin et chaque recette met à l’honneur les saveurs et le savoir-faire de notre terroir. La carte évolue au fil des saisons, mais la passion et l’exigence restent toujours les mêmes."
           />
         </div>
       </Reveal>
@@ -152,8 +151,8 @@ export default async function RestaurantPage() {
             <p className="flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-brass-bright mb-3">
               <Clock size={14} /> Horaires &amp; service
             </p>
-            <p className="text-sm text-cream/80">Restaurant : Mardi – Dimanche, 12h – 15h / 19h – 23h</p>
-            <p className="text-sm text-cream/80 mt-1">Service traiteur : 7j/7, 10h – 00h</p>
+            <p className="text-sm text-cream/80">Restaurant : Lundi – Dimanche, 09h – 00h</p>
+            <p className="text-sm text-cream/80 mt-1">Service traiteur : 7j/7, 24h/24</p>
           </div>
 
           <div className="flex gap-4 mt-auto">
